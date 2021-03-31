@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060315896626",
+    "project_id": "fir-demo-ed4da",
+    "storage_bucket": "fir-demo-ed4da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060315896626:android:669efdc35d698defa9552b",
+        "android_client_info": {
+          "package_name": "com.miheer.firebaseDemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060315896626-842kb7dnostl4babesridu3t0tmiu8b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_k8u9aULSN2UA9JMftLWwnX3Iqrm9zsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060315896626-842kb7dnostl4babesridu3t0tmiu8b8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
