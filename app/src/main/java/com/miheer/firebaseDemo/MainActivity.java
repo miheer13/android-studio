@@ -42,7 +42,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button logout, add, btnPdf;
+    private Button logout, add, btnPdf, addName;
     private EditText edit;
     private ListView listView;
 
@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         logout = findViewById(R.id.logout);
         btnPdf = findViewById(R.id.btnPdf);
+        addName = findViewById(R.id.addName);
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,6 +113,14 @@ public class MainActivity extends AppCompatActivity {
 //
 //            }
 //        });
+
+        addName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, AddNameActivity.class));
+                finish();
+            }
+        });
 
     }
 

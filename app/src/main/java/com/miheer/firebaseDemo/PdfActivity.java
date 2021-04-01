@@ -33,7 +33,7 @@ public class PdfActivity extends AppCompatActivity {
         btnPdfSelecter = findViewById(R.id.btnPdfSelecter);
         upload = findViewById(R.id.upload);
 
-        StorageReference storageReference = FirebaseStorage.getInstance().getReference()
+        StorageReference storageReference = FirebaseStorage.getInstance().getReference();
     }
 
 
